@@ -1,0 +1,32 @@
+body {
+    background-color: #FFC0CB;
+    text-align: center;
+    padding-top: 150px;
+}
+
+img {
+    max-width: 50%; 
+    height: auto;
+}
+
+.candle {
+    position: absolute;
+    width: 60px; 
+    height: auto; 
+    transition: top 1s ease; 
+}
+
+@keyframes dropCandle {
+    from { top: -60px; }
+    to { top: 0; }
+}
+
+#age-display {
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-size: 20px; 
+    color: #333; 
+}
