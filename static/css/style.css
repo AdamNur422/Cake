@@ -26,7 +26,22 @@ img {
     top: 10px; 
     left: 50%;
     transform: translateX(-50%); 
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
-    font-size: 20px; 
-    color: #333; 
+    font-family: 'Rubik Doodle Shadow', cursive, sans-serif;
+    font-size: 30px; 
+    color: #333;
+    background-color: #f5f5dc;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    background-image: radial-gradient(circle, #89CFF0 1px, transparent 1px), 
+                      radial-gradient(circle, #FFC0CB 1px, transparent 1px), 
+                      radial-gradient(circle, #FFA500 1px, transparent 1px), 
+                      radial-gradient(circle, #FFFF00 1px, transparent 1px); 
+    background-size: 10px 10px; 
+    background-position: 0 0, 5px 5px, 5px 5px, 10px 10px; 
+}
+
+.candle {
+    cursor: pointer;
 }
